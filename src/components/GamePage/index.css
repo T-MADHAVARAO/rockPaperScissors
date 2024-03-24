@@ -1,0 +1,71 @@
+button {
+  border: 0px none;
+  background-color: transparent;
+  width: 40%;
+}
+.wrap-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+.rules-btn {
+  background-color: white;
+  border-radius: 6px;
+  padding: 8px;
+  border: 0.5px solid black;
+  width: 80px;
+}
+.rules-cont {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.popup {
+  padding: 10px;
+}
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.popup-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.rules-img {
+  width: 50%;
+}
+.select-val {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.select-img {
+  width: 100px;
+}
+.result-page {
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: 'Roboto';
+}
